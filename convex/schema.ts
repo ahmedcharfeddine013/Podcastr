@@ -12,7 +12,7 @@ export default defineSchema({
     imageStorageId: v.optional(v.id("_storage")),
     author: v.string(),
     authorId: v.string(),
-    authorImgUrl: v.string(),
+    authorImageUrl: v.string(),
     voicePrompt: v.string(),
     imagePrompt: v.string(),
     voicetype: v.string(),

@@ -9,7 +9,6 @@ import React from "react";
 
 const LeftSidebar = () => {
   const pathname = usePathname();
-  const router = useRouter();
   return (
     <section className="left_sidebar">
       <nav className="flex flex-col gap-6">
